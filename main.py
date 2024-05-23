@@ -7,7 +7,7 @@ def piedra_papel_o_tijera(user_option):
         print('esa opcion no es valida')
         return
 
-    computer_option = 'tijera' #random.choice(options)
+    computer_option = random.choice(options)
 
     print("User option =>", user_option)
     print("Computer option =>", computer_option)
